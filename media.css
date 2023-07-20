@@ -1,0 +1,92 @@
+@media screen and (max-width: 1024px) {
+    .flip-card {
+        height: 400px;
+        padding: 0;
+    }
+
+    .claim-inner {
+        height: 400px;
+    }
+
+    .left-platform::after {
+        height: 400px;
+        border-bottom: 400px solid #427eaf;
+    }
+
+    .right-platform img {
+        height: 400px;
+    }
+
+    .right-platform::after {
+        height: 400px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    p {
+        margin-bottom: 0.5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flip-card {
+        padding: 20px 0;
+    }
+
+    .plan-info {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    header .logo a {
+        font-size: 12px;
+    }
+
+    .about-img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .about-content-outer {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .about-inner {
+        flex-direction: column-reverse;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .claim-inner {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .left-platform {
+        width: 100%;
+        padding: 30px 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+    .left-platform::after {
+        content: none;
+    }
+
+    .right-platform {
+        width: 100%;
+    }
+
+    .right-platform img {
+        height: 300px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
